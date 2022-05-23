@@ -1,0 +1,35 @@
+{
+  "nome" : " estoque-de-produtos-frexco " ,
+  "versão" : " 0.1.0 " ,
+  "privado" : verdadeiro ,
+  "dependências" : {
+    "@testing-library/jest-dom" : " ^5.16.4 " ,
+    "@testing-library/ react" : " ^13.2.0 " ,
+    "@testing-library/user-event" : " ^13.5.0 " ,
+    "axios" : " ^0.27.2 " ,
+  },
+  "roteiros" : {
+    "start" : " react-scripts start " ,
+    "build" : " react-scripts build " ,
+    "test" : " teste de scripts de reação " ,
+    "eject" : " react-scripts eject "
+  },
+  "eslintConfig" : {
+    "estende" : [
+      " reaja-aplicativo " ,
+      " react-app/jest "
+    ]
+  },
+  "lista de navegadores" : {
+    "produção" : [
+      " >0,2% " ,
+      " não morto " ,
+      " não op_mini tudo "
+    ],
+    "desenvolvimento" : [
+      " última 1 versão cromada " ,
+      " última 1 versão do Firefox " ,
+      " última versão 1 safári "
+    ]
+  }
+}
